@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <!---------------- Calculadora ------------------>
+        <div class="calculadora">
+            <div class="entrada">
+                <label for="quantidade">Digite a quantidade de campos envolvidos na operação</label>
+                <input type="number" id="quantidade" name="quantidade" min="2" />
+            </div>
+
+            <div class="campos" id="campos-container"></div>
+
+            <!--------------- Botões para realizar as operações ------------------------->
+            <div class="botoes">
+                <button id="soma">Realizar soma</button>
+                <button id="subtracao">Realizar subtração</button>
+                <button id="limpar">Limpar</button>
+            </div>
+
+            <!------------------ Resultado da operação ----------------->
+            <div class="resultado">
+                <label for="resultado">Resultado</label>
+                <input type="number" id="resultado" name="resultado" disabled />
+            </div>
+        </div>
+    </div>
+
+    <div class="link">
+        <a href="https://www.linkedin.com/in/Henrique-volponi" target="_blank">Linkedln</a>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
