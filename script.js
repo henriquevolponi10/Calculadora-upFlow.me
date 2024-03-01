@@ -23,6 +23,8 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     }
 
+    // ---------------------Função para obter os valores dos campos----------------------
+
     //---------------------Função para obter os valores dos campos----------------------
     function obterValores() {
         const quantidadeCampos = parseInt(document.getElementById("quantidade").value);
